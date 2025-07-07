@@ -1,47 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333333;
+      background-image: url('https://cdn2.dropmarkusercontent.com/52043/17e0f108b56ba7b58285a475010de11643c21bc9980aa07c1c6fbb1c20fda467/7794_Ethiopia_2019_CG-.jpg?Expires=1751862741&Signature=ALY7l1H63larihks7-A2RIVueMYcIHDyjqoLlitsndNQXi96XFVEQBCMG2TGvLz82wZ8tb8IXPRji7IOUbj2BAVyIe6JaigYFu3WFYuQsD0zQ15XTmUgxX-XWaN-KkmKcVWnQN48xH7~MAAKBOR81EmpNbFiiyPJttU5aWpkJ0KXChOq2vPw18GuASz9dsUm4~X3WY4dQQ-x9iS1Rh7qMFtsB2LwaMzV-za7yOExDFZ0Ilr2SYtGKPkW0IfI9yCrAJan7YJXCX~q-u72wcrozcass7XQgBNbHr5f7fVPbwlOXhX~nUizGfxbaEsT72TF8i9nMW6YSbzhAa9awIJVEA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background-color: rgba(0, 180, 216, 0.85); /* #00B4D8 */
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #ffffff;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background-color: rgba(0, 180, 216, 0.1); /* very light #00B4D8 */
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      margin-top: 30px;
+      color: #00B4D8;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: #444;
+      margin: 10px 0 20px;
+    }
+
+    .cta-button {
+      background-color: #F9D342; /* yellow */
+      color: #000;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #f0c000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: rgba(0, 180, 216, 0.85); /* blue */
+      color: #ffffff;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header>
+    <h1>Every Drop Begins a New Story</h1>
+    <p>Join us in turning dry lands into hope-filled futures. Together, we bring clean, life-giving water to those who need it most.</p>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <section class="hero">
+    <img src="./img/cw_logo.png" alt="Water well community">
+    <h2>Your Donation Can Save Lives</h2>
+    <p>100% of public donations go directly to funding water projects.</p>
+    <a href="#" class="cta-button">Donate Now</a>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <footer>
+    &copy; 2025 Charity: Water. All rights reserved.
+  </footer>
 </body>
 </html>
